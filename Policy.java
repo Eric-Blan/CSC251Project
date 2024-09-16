@@ -170,23 +170,9 @@ public class Policy
             
          System.out.println("Please enter the Policyholder’s Weight (in pounds): ");
             double weight = scnr.nextDouble();
-            policy.setPolicyholderWeight(weight);
-            
-            policy.displayResults();        
+            policy.setPolicyholderWeight(weight);           
+                   
       }
-   
-   // Display answers given by the user
-      public void displayResults() {
-         System.out.println("Policy Number: " + policyNumber);
-         System.out.println("Provider Name: " + providerName);
-         System.out.println("Policyholder's First Name: " + policyholderFirstName);
-         System.out.println("Policyholder's Last Name: " + policyholderLastName);
-         System.out.println("Policyholder's Age: " + policyholderAge);
-         System.out.println("Policyholder's Smoking Status: " + smokingStatus);
-         System.out.println("Policyholder's Height: " + policyholderHeight);
-         System.out.println("Policyholder's Weight: " + policyholderWeight);
-         System.out.printf("Policyholder's BMI: %.2f\n", calcBMI());
-         System.out.printf("Policy Price: $%.2f", policyPrice());
       
-      }
-   }
+      
+}
