@@ -187,7 +187,6 @@ public class Policy
          System.out.println("Policyholder's Weight: " + policyholderWeight);
          System.out.printf("Policyholder's BMI: %.2f\n", calcBMI());
          System.out.printf("Policy Price: $%.2f", policyPrice());
-         
       
       }
    }
