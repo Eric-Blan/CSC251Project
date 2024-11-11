@@ -34,7 +34,17 @@ public class Policy
          this.policyholderHeight = height;
          this.policyholderWeight = weight;
       }
-      
+      /**
+      Initializes the variables
+      @param policyNum the number of policies the user wants to create
+      @param providerName the name of the policy provider
+      @param firstName the user's first name
+      @param lastName the user's last name
+      @param age the user's age
+      @param smokingStatus whether or not the user smokes
+      @param height the user's height
+      @param weight the user's weight
+      */
    
    // Setters
       public void setPolicyNumber(String policyNumber) {
